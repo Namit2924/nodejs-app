@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 // Version (change this to test CI/CD)
-const VERSION = "v1.0";
+const VERSION = "v2.0";
 
 app.get("/", (req, res) => {
     res.send(`
